@@ -59,3 +59,7 @@ def setChat(request):
         return Response(data)
 # Create your views here.
 
+@api_view(['GET'])
+def index(request):
+    return Response("Hello World")
+
